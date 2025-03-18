@@ -14,10 +14,10 @@
         ],
         "description": "Meena is the main character of the series. She is an intelligent, brave, and kind girl who is always ready to stand up for what is right and help others in need.",
         "age": "10-12 years",
-        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN8IMxc3w_4E5EqeAQBBbP7JF6CIwb-DnzQ&s",
+        "avatar": "https://example.com/meena-avatar.png",
         "images": [
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN8IMxc3w_4E5EqeAQBBbP7JF6CIwb-DnzQ&s",
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN8IMxc3w_4E5EqeAQBBbP7JF6CIwb-DnzQ&s"
+          "https://example.com/meena1.png",
+          "https://example.com/meena2.png"
         ],
         "occupations": [
           "Student",

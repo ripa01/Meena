@@ -14,11 +14,8 @@
         ],
         "description": "Meena is the main character of the series. She is an intelligent, brave, and kind girl who is always ready to stand up for what is right and help others in need.",
         "age": "10-12 years",
-        "avatar": "https://example.com/meena-avatar.png",
-        "images": [
-          "https://example.com/meena1.png",
-          "https://example.com/meena2.png"
-        ],
+        "avatar": "meena.jpeg",
+        "images": ["meena1.jpeg", "meena2.jpeg"],
         "occupations": [
           "Student",
           "Role model for children"
@@ -36,11 +33,8 @@
         ],
         "description": "Raju is Meena's younger brother. He is energetic, curious, and often finds himself in situations where he learns valuable lessons from his older sister.",
         "age": "6-8 years",
-        "avatar": "https://example.com/raju-avatar.png",
-        "images": [
-          "https://example.com/raju1.png",
-          "https://example.com/raju2.png"
-        ],
+        "avatar": "raju.jpg",
+        "images": ["raju.jpg", "raju.jpg"],
         "occupations": [
           "Student"
         ]
@@ -56,11 +50,8 @@
         ],
         "description": "Mithu is Meena's pet parrot and her closest friend. Mithu often helps Meena with her tasks and provides valuable advice in difficult situations.",
         "age": "3-5 years",
-        "avatar": "https://example.com/mithu-avatar.png",
-        "images": [
-          "https://example.com/mithu1.png",
-          "https://example.com/mithu2.png"
-        ],
+        "avatar": "mithu.jpeg",
+        "images": ["mithu.jpeg", "mithu.jpeg"],
         "occupations": [
           "Pet",
           "Companion"
@@ -76,11 +67,8 @@
         ],
         "description": "Rani is Meena and Raju's younger sister. She is a sweet, innocent girl who looks up to her older siblings and is often involved in their adventures.",
         "age": "5-7 years",
-        "avatar": "https://example.com/rani-avatar.png",
-        "images": [
-          "https://example.com/rani1.png",
-          "https://example.com/rani2.png"
-        ],
+        "avatar": "rani.jpg",
+        "images": ["rani.jpg", "rani.jpg"],
         "occupations": [
           "Student"
         ]
@@ -96,11 +84,8 @@
         ],
         "description": "Grandmother is the wise and loving elder of the family. She provides guidance to Meena and her siblings with her life experience and comforting presence.",
         "age": "65-70 years",
-        "avatar": "https://example.com/grandmother-avatar.png",
-        "images": [
-          "https://example.com/grandmother1.png",
-          "https://example.com/grandmother2.png"
-        ],
+        "avatar": "gmother.png",
+        "images": ["gmother.png", "gmother.png"],
         "occupations": [
           "Homemaker",
           "Storyteller"
@@ -117,11 +102,8 @@
         ],
         "description": "Meena and Raju's parents are supportive and caring. They provide a strong moral foundation and are always there to support their children in their personal growth.",
         "age": "40-45 years",
-        "avatar": "https://example.com/parents-avatar.png",
-        "images": [
-          "https://example.com/parents1.png",
-          "https://example.com/parents2.png"
-        ],
+        "avatar": "parent.jpg",
+        "images": ["parent.jpg", "parent.jpg"],
         "occupations": [
           "Various Jobs",
           "Caretakers"
@@ -137,11 +119,8 @@
         ],
         "description": "Lali is Meena's cow. She is a friendly and hardworking animal that helps in the family's daily chores.",
         "age": "5-6 years",
-        "avatar": "https://example.com/lali-avatar.png",
-        "images": [
-          "https://example.com/lali1.png",
-          "https://example.com/lali2.png"
-        ],
+        "avatar": "lali.png",
+        "images": ["lali.png", "lali.png"],
         "occupations": [
           "Animal",
           "Helper"
@@ -157,11 +136,8 @@
         ],
         "description": "Munmun is Meena's goat. She is a playful and mischievous animal that often causes trouble in the household.",
         "age": "2-3 years",
-        "avatar": "https://example.com/munmun-avatar.png",
-        "images": [
-          "https://example.com/munmun1.png",
-          "https://example.com/munmun2.png"
-        ],
+        "avatar": "munmun.png",
+        "images": ["munmun.png", "munmun.png"],
         "occupations": [
           "Animal",
           "Companion"
@@ -178,11 +154,8 @@
         ],
         "description": "The Leader is the influential personality of the village who provides guidance and leadership to the community.",
         "age": "45-55 years",
-        "avatar": "https://example.com/leader-avatar.png",
-        "images": [
-          "https://example.com/leader1.png",
-          "https://example.com/leader2.png"
-        ],
+        "avatar": "leader.png",
+        "images": ["leader.png", "leader.png"],
         "occupations": [
           "Village Leader"
         ]
@@ -198,11 +171,8 @@
         ],
         "description": "The Shopkeeper is a deceitful and oppressive man who owns a shop in the market. He is one of the main villains in the series and is known for his trickery.",
         "age": "50-60 years",
-        "avatar": "https://example.com/shopkeeper-avatar.png",
-        "images": [
-          "https://example.com/shopkeeper1.png",
-          "https://example.com/shopkeeper2.png"
-        ],
+        "avatar": "shop.jpg",
+        "images": ["shop.jpg", "shop.jpg"],
         "occupations": [
           "Shopkeeper",
           "Villain"
@@ -219,11 +189,8 @@
         ],
         "description": "Rita is a girl who studies in the upper class of the school. She was later married to the shopkeeper's son.",
         "age": "15-18 years",
-        "avatar": "https://example.com/rita-avatar.png",
-        "images": [
-          "https://example.com/rita1.png",
-          "https://example.com/rita2.png"
-        ],
+       "avatar": "rita.png",
+        "images": ["rita.png", "rita.png"],
         "occupations": [
           "Student",
           "Housewife (after marriage)"
@@ -240,11 +207,8 @@
         ],
         "description": "Dipu is Meena's naughty friend who often finds himself in trouble. Mithu helps Dipu become aware of different things in life.",
         "age": "8-10 years",
-        "avatar": "https://example.com/dipu-avatar.png",
-        "images": [
-          "https://example.com/dipu1.png",
-          "https://example.com/dipu2.png"
-        ],
+        "avatar": "dipu.jpg",
+        "images": ["dipu.jpg", "dipu.jpg"],
         "occupations": [
           "Student",
           "Friend"
@@ -261,11 +225,8 @@
         ],
         "description": "The Teacher is an intelligent and wise person who helps Meena with various problems and provides valuable advice.",
         "age": "35-45 years",
-        "avatar": "https://example.com/teacher-avatar.png",
-        "images": [
-          "https://example.com/teacher1.png",
-          "https://example.com/teacher2.png"
-        ],
+        "avatar": "t.jpg",
+        "images": ["t.jpg", "t.jpg"],
         "occupations": [
           "Teacher",
           "Advisor"
@@ -281,11 +242,8 @@
         ],
         "description": "Aunt is Meena and Raju's father's elder sister. She is a bad-tempered, cruel woman who is often a source of trouble for the family.",
         "age": "40-50 years",
-        "avatar": "https://example.com/aunt-avatar.png",
-        "images": [
-          "https://example.com/aunt1.png",
-          "https://example.com/aunt2.png"
-        ],
+        "avatar": "aunt.jpg",
+        "images": ["aunt.jpg", "aunt.jpg"],
         "occupations": [
           "Housewife",
           "Villain"

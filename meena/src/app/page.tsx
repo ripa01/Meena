@@ -44,11 +44,11 @@ export default async function Page() {
               className="overflow-hidden rounded-md"
             >
               <Image
-                src={item.avatar}
+                src={`/characters/${item.avatar}`} 
                 alt={item.name} // Improved alt text for accessibility
                 className="transition-all duration-500 hover:scale-110 hover:-rotate-2"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
               />
             </Link>
           )

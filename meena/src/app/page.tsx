@@ -1,6 +1,6 @@
-import Container from "@/components/Container"
-import Image from "next/image"
-import Link from "next/link"
+import Container from "@/components/Container";
+import Image from "next/image";
+import Link from "next/link";
 
 // Character interface definition
 interface Character {
@@ -21,17 +21,17 @@ interface CharacterData {
 }
 
 async function getAllCharacters(): Promise<CharacterData> {
-  const response = await fetch("http://localhost:3000/api/characters")
+  const response = await fetch("http://localhost:3000/api/characters");
 
   if (!response.ok) {
-    throw new Error('Failed to fetch data')
+    throw new Error("Failed to fetch data");
   }
 
-  return response.json() // TypeScript now knows this returns `CharacterData`
+  return response.json(); // TypeScript now knows this returns `CharacterData`
 }
 
 export default async function Page() {
-  const { characters } = await getAllCharacters()
+  const { characters } = await getAllCharacters();
 
   return (
     <main>
@@ -44,16 +44,16 @@ export default async function Page() {
               className="overflow-hidden rounded-md"
             >
               <Image
-                src={`/characters/${item.avatar}`} 
-                alt={item.name} // Improved alt text for accessibility
-                className="transition-all duration-500 hover:scale-110 hover:-rotate-2"
+                src={`/characters/${item.avatar}`}
+                alt={item.name}
+                className="w-40 h-40 rounded-full object-cover transition-all duration-500 hover:scale-110 hover:-rotate-2"
                 width={300}
                 height={300}
               />
             </Link>
-          )
+          );
         })}
       </Container>
     </main>
-  )
+  );
 }

@@ -1,0 +1,77 @@
+{
+    "data": [
+      {
+        "id": "Meena_01",
+        "title": "What is the name of Meena's younger brother?",
+        "answers": ["Raju", "Rani", "Dipu", "Mithu"],
+        "correct_answer": "Raju"
+      },
+      {
+        "id": "Meena_02",
+        "title": "Who is Meena's closest friend and her pet parrot?",
+        "answers": ["Mithu", "Rani", "Dipu", "Lali"],
+        "correct_answer": "Mithu"
+      },
+      {
+        "id": "Meena_03",
+        "title": "What is the name of Meena's cow?",
+        "answers": ["Lali", "Munmun", "Rani", "Meena"],
+        "correct_answer": "Lali"
+      },
+      {
+        "id": "Meena_04",
+        "title": "Who is Meena's naughty friend who gets help from Mithu?",
+        "answers": ["Dipu", "Raju", "Lali", "Grandmother"],
+        "correct_answer": "Dipu"
+      },
+      {
+        "id": "Meena_05",
+        "title": "Who is the bad-tempered, cruel woman in Meena's family?",
+        "answers": ["Aunt", "Grandmother", "Mother", "Teacher"],
+        "correct_answer": "Aunt"
+      },
+      {
+        "id": "Meena_06",
+        "title": "What does Meena's teacher help her with?",
+        "answers": ["Wise advice", "Fighting with Raju", "Bringing Mithu home", "Feeding Lali"],
+        "correct_answer": "Wise advice"
+      },
+      {
+        "id": "Meena_07",
+        "title": "Who does Meena live with?",
+        "answers": ["Parents", "Rani", "Aunt", "Grandmother"],
+        "correct_answer": "Parents"
+      },
+      {
+        "id": "Meena_08",
+        "title": "What is the name of Meena's goat?",
+        "answers": ["Munmun", "Lali", "Mithu", "Dipu"],
+        "correct_answer": "Munmun"
+      },
+      {
+        "id": "Meena_09",
+        "title": "Who is the shopkeeper's son, whom Rita later marries?",
+        "answers": ["Raju", "Dipu", "Mithu", "Rita's husband"],
+        "correct_answer": "Rita's husband"
+      },
+      {
+        "id": "Meena_10",
+        "title": "Which animal is Meena’s pet parrot?",
+        "answers": ["Parrot", "Cow", "Goat", "Dog"],
+        "correct_answer": "Parrot"
+      },
+      {
+        "id": "Meena_11",
+        "title": "Who is the leading personality of the village in Meena’s series?",
+        "answers": ["Leader", "Teacher", "Rita", "Dipu"],
+        "correct_answer": "Leader"
+      },
+      {
+        "id": "Meena_12",
+        "title": "Who helps Meena become aware at different times?",
+        "answers": ["Mithu", "Raju", "Grandmother", "Teacher"],
+        "correct_answer": "Mithu"
+      }
+    ]
+  }
+  

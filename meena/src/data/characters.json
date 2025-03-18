@@ -1,0 +1,296 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "Meena",
+        "slug": "meena",
+        "skills": [
+          "Bravery",
+          "Compassion",
+          "Leadership",
+          "Problem-solving",
+          "Empathy",
+          "Responsibility"
+        ],
+        "description": "Meena is the main character of the series. She is an intelligent, brave, and kind girl who is always ready to stand up for what is right and help others in need.",
+        "age": "10-12 years",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN8IMxc3w_4E5EqeAQBBbP7JF6CIwb-DnzQ&s",
+        "images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN8IMxc3w_4E5EqeAQBBbP7JF6CIwb-DnzQ&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN8IMxc3w_4E5EqeAQBBbP7JF6CIwb-DnzQ&s"
+        ],
+        "occupations": [
+          "Student",
+          "Role model for children"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Raju",
+        "slug": "raju",
+        "skills": [
+          "Playfulness",
+          "Curiosity",
+          "Problem-solving",
+          "Bravery"
+        ],
+        "description": "Raju is Meena's younger brother. He is energetic, curious, and often finds himself in situations where he learns valuable lessons from his older sister.",
+        "age": "6-8 years",
+        "avatar": "https://example.com/raju-avatar.png",
+        "images": [
+          "https://example.com/raju1.png",
+          "https://example.com/raju2.png"
+        ],
+        "occupations": [
+          "Student"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Mithu",
+        "slug": "mithu",
+        "skills": [
+          "Intelligence",
+          "Loyalty",
+          "Communication"
+        ],
+        "description": "Mithu is Meena's pet parrot and her closest friend. Mithu often helps Meena with her tasks and provides valuable advice in difficult situations.",
+        "age": "3-5 years",
+        "avatar": "https://example.com/mithu-avatar.png",
+        "images": [
+          "https://example.com/mithu1.png",
+          "https://example.com/mithu2.png"
+        ],
+        "occupations": [
+          "Pet",
+          "Companion"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Rani",
+        "slug": "rani",
+        "skills": [
+          "Kindness",
+          "Compassion"
+        ],
+        "description": "Rani is Meena and Raju's younger sister. She is a sweet, innocent girl who looks up to her older siblings and is often involved in their adventures.",
+        "age": "5-7 years",
+        "avatar": "https://example.com/rani-avatar.png",
+        "images": [
+          "https://example.com/rani1.png",
+          "https://example.com/rani2.png"
+        ],
+        "occupations": [
+          "Student"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Grandmother",
+        "slug": "grandmother",
+        "skills": [
+          "Wisdom",
+          "Storytelling",
+          "Patience"
+        ],
+        "description": "Grandmother is the wise and loving elder of the family. She provides guidance to Meena and her siblings with her life experience and comforting presence.",
+        "age": "65-70 years",
+        "avatar": "https://example.com/grandmother-avatar.png",
+        "images": [
+          "https://example.com/grandmother1.png",
+          "https://example.com/grandmother2.png"
+        ],
+        "occupations": [
+          "Homemaker",
+          "Storyteller"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Parents",
+        "slug": "parents",
+        "skills": [
+          "Guidance",
+          "Love",
+          "Nurturing"
+        ],
+        "description": "Meena and Raju's parents are supportive and caring. They provide a strong moral foundation and are always there to support their children in their personal growth.",
+        "age": "40-45 years",
+        "avatar": "https://example.com/parents-avatar.png",
+        "images": [
+          "https://example.com/parents1.png",
+          "https://example.com/parents2.png"
+        ],
+        "occupations": [
+          "Various Jobs",
+          "Caretakers"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Lali",
+        "slug": "lali",
+        "skills": [
+          "Loyalty",
+          "Strength"
+        ],
+        "description": "Lali is Meena's cow. She is a friendly and hardworking animal that helps in the family's daily chores.",
+        "age": "5-6 years",
+        "avatar": "https://example.com/lali-avatar.png",
+        "images": [
+          "https://example.com/lali1.png",
+          "https://example.com/lali2.png"
+        ],
+        "occupations": [
+          "Animal",
+          "Helper"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Munmun",
+        "slug": "munmun",
+        "skills": [
+          "Naughtiness",
+          "Playfulness"
+        ],
+        "description": "Munmun is Meena's goat. She is a playful and mischievous animal that often causes trouble in the household.",
+        "age": "2-3 years",
+        "avatar": "https://example.com/munmun-avatar.png",
+        "images": [
+          "https://example.com/munmun1.png",
+          "https://example.com/munmun2.png"
+        ],
+        "occupations": [
+          "Animal",
+          "Companion"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Leader",
+        "slug": "leader",
+        "skills": [
+          "Leadership",
+          "Wisdom",
+          "Decision-making"
+        ],
+        "description": "The Leader is the influential personality of the village who provides guidance and leadership to the community.",
+        "age": "45-55 years",
+        "avatar": "https://example.com/leader-avatar.png",
+        "images": [
+          "https://example.com/leader1.png",
+          "https://example.com/leader2.png"
+        ],
+        "occupations": [
+          "Village Leader"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Shopkeeper",
+        "slug": "shopkeeper",
+        "skills": [
+          "Deceitfulness",
+          "Manipulation",
+          "Persuasion"
+        ],
+        "description": "The Shopkeeper is a deceitful and oppressive man who owns a shop in the market. He is one of the main villains in the series and is known for his trickery.",
+        "age": "50-60 years",
+        "avatar": "https://example.com/shopkeeper-avatar.png",
+        "images": [
+          "https://example.com/shopkeeper1.png",
+          "https://example.com/shopkeeper2.png"
+        ],
+        "occupations": [
+          "Shopkeeper",
+          "Villain"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Rita",
+        "slug": "rita",
+        "skills": [
+          "Intelligence",
+          "Adaptability",
+          "Studious"
+        ],
+        "description": "Rita is a girl who studies in the upper class of the school. She was later married to the shopkeeper's son.",
+        "age": "15-18 years",
+        "avatar": "https://example.com/rita-avatar.png",
+        "images": [
+          "https://example.com/rita1.png",
+          "https://example.com/rita2.png"
+        ],
+        "occupations": [
+          "Student",
+          "Housewife (after marriage)"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Dipu",
+        "slug": "dipu",
+        "skills": [
+          "Playfulness",
+          "Curiosity",
+          "Mischief"
+        ],
+        "description": "Dipu is Meena's naughty friend who often finds himself in trouble. Mithu helps Dipu become aware of different things in life.",
+        "age": "8-10 years",
+        "avatar": "https://example.com/dipu-avatar.png",
+        "images": [
+          "https://example.com/dipu1.png",
+          "https://example.com/dipu2.png"
+        ],
+        "occupations": [
+          "Student",
+          "Friend"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Teacher of the school",
+        "slug": "teacher",
+        "skills": [
+          "Wisdom",
+          "Patience",
+          "Guidance"
+        ],
+        "description": "The Teacher is an intelligent and wise person who helps Meena with various problems and provides valuable advice.",
+        "age": "35-45 years",
+        "avatar": "https://example.com/teacher-avatar.png",
+        "images": [
+          "https://example.com/teacher1.png",
+          "https://example.com/teacher2.png"
+        ],
+        "occupations": [
+          "Teacher",
+          "Advisor"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Aunt",
+        "slug": "aunt",
+        "skills": [
+          "Cruelty",
+          "Bad temper"
+        ],
+        "description": "Aunt is Meena and Raju's father's elder sister. She is a bad-tempered, cruel woman who is often a source of trouble for the family.",
+        "age": "40-50 years",
+        "avatar": "https://example.com/aunt-avatar.png",
+        "images": [
+          "https://example.com/aunt1.png",
+          "https://example.com/aunt2.png"
+        ],
+        "occupations": [
+          "Housewife",
+          "Villain"
+        ]
+      }
+    ]
+  }
+  

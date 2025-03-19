@@ -45,7 +45,7 @@ export default async function Page({ params }: PageProps) {
   return (
     <Container className="flex flex-col gap-5 py-5" as="main">
       <div className="flex flex-col gap-2">
-        <h1 className="text-2xl font-semibold capitalize">{character.name}</h1>
+        <h1 className="text-5xl font-semibold text-green-700 uppercase text-center">{character.name}</h1>
         
         {character.occupations?.length > 0 && (
           <ul className="flex flex-wrap gap-1 text-sm">
@@ -58,7 +58,7 @@ export default async function Page({ params }: PageProps) {
         )}
       </div>
 
-      <p className="text-sm leading-6">{character.description}</p>
+      <p className="text-md leading-6">{character.description}</p>
 
       {character.images?.length > 0 && (
         <ul className="grid gap-2 sm:grid-cols-2">
@@ -66,7 +66,7 @@ export default async function Page({ params }: PageProps) {
             <li key={index} className="relative flex overflow-hidden bg-gray-900 rounded-xl">
               <Image
                 className="transition-all duration-500 hover:scale-110 hover:rotate-2"
-                src={`/characters/${image}`}  // Assuming the images are stored in the public/images folder
+                src={`/characters/${image}`} 
                 alt={character.name}
                 width={760}
                 height={435}
@@ -78,10 +78,10 @@ export default async function Page({ params }: PageProps) {
 
       {character.skills && character.skills.length > 0 && (
         <>
-          <h2 className="text-xl font-bold">Power and Skills</h2>
+          <h2 className="text-2xl font-bold text-yellow-900">Power and Skills</h2>
           <ul className="flex flex-wrap gap-1">
             {character.skills.map((item: string, index: number) => (
-              <li key={index} className="flex justify-center flex-grow px-2 py-1 text-orange-400 rounded-full bg-orange-950">
+              <li key={index} className="flex justify-center flex-grow px-2 py-1 text-green-400 rounded-full bg-blue-950">
                 {item}
               </li>
             ))}

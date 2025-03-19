@@ -16,7 +16,7 @@ interface PageProps {
 }
 
 interface CharacterResponse {
-  character: Character | null;  // Character is wrapped inside this 'character' property
+  character: Character | null;  
 }
 
 export const dynamicParams = false;
@@ -43,7 +43,7 @@ export default async function Page({ params }: PageProps) {
 
   // Render character information
   return (
-    <Container className="flex flex-col bg-green-900 gap-5 py-5" as="main">
+    <Container className="flex flex-col gap-5 py-5" as="main">
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-semibold capitalize">{character.name}</h1>
         
@@ -66,7 +66,7 @@ export default async function Page({ params }: PageProps) {
             <li key={index} className="relative flex overflow-hidden bg-gray-900 rounded-xl">
               <Image
                 className="transition-all duration-500 hover:scale-110 hover:rotate-2"
-                src={`/images/${image}`}  // Assuming the images are stored in the public/images folder
+                src={`/characters/${image}`}  // Assuming the images are stored in the public/images folder
                 alt={character.name}
                 width={760}
                 height={435}

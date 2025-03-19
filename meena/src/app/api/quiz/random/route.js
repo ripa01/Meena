@@ -8,6 +8,6 @@ export async function GET() {
         randomQuestion: questions.data[random].id,
       })
     } catch (error) {
-      return new NextResponse('Internal Server Error', { status: 500 })
+      console.error("An error occurred:", error);
     }
   }

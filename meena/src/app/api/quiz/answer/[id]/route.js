@@ -21,7 +21,7 @@ export async function GET(req, { params }) {
         random: filteredQuestions[random].id,
       })
     } catch (error) {
-      return new NextResponse('Internal Server Error', { status: 500 })
+      console.error("An error occurred:", error);
     }
   }
   

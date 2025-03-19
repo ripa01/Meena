@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { TbArrowBigRightFilled } from "react-icons/tb";
 import Container from "@/components/Container";
+import logo from "@/public/meena.jpeg";
 
 // Define the structure of the response data
 interface QuizResponse {
@@ -10,7 +11,7 @@ interface QuizResponse {
 
 // Fetch function to get a random quiz question
 export async function getRandomQuizQuestion(): Promise<QuizResponse> {
-  const response = await fetch(`http://localhost:3000/quiz/random`, {
+  const response = await fetch(`http://localhost:3000/api/quiz/random`, {
     cache: "no-store",
   });
 
@@ -34,7 +35,7 @@ export default async function Page() {
         {/* Image Section */}
         <div className="relative overflow-hidden rounded-2xl">
           <div className="md:w-[24rem]">
-            <Image src="/wallpaper.jpg" alt="Quiz Wallpaper" width={700} height={700} />
+            <Image src={logo} alt="Quiz Wallpaper" width={700} height={700} />
           </div>
           <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r"></div>
         </div>

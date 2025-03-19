@@ -61,6 +61,7 @@ export default async function Page() {
       </Container>
     );
   } catch (error) {
+    console.error("An error occurred:", error);
     return (
       <Container as="main" className="flex flex-col items-center justify-center min-h-screen text-center">
         <h1 className="text-2xl font-semibold text-red-500">Error loading quiz</h1>

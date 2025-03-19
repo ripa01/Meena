@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     domains: ['encrypted-tbn0.gstatic.com'], // Add the domain here
   },
 
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;

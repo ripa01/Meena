@@ -1,4 +1,5 @@
-// 📁 app/api/quiz/answer/[id]/route.js
+import questions from '@/data/quiz.json'
+import { NextResponse } from 'next/server'
 
 export async function GET(req, { params }) {
     try {

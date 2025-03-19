@@ -1,39 +1,55 @@
-import { Answer } from "@/components/Answer";
+import { notFound } from "next/navigation";
 import Container from "@/components/Container";
+import { Answer } from "@/components/Answer";
 
-// Define the structure of the quiz question
-interface QuizQuestion {
+interface Question {
   id: string;
   title: string;
   answers: string[];
   correct_answer: string;
 }
 
-// Fetch function to get a quiz question by ID
-async function getQuizQuestion(id: string): Promise<{ question: QuizQuestion }> {
-  const response = await fetch(`http://localhost:3000/quiz/${id}`);
+// Fetch Quiz Question
+async function getQuizQuestion(id: string): Promise<Question | null> {
+  try {
+    const res = await fetch(`http://localhost:3000/api/quiz/${id}`, {
+      cache: "no-store",
+    });
 
-  if (!response.ok) {
-    throw new Error("Failed to fetch data");
+    if (!res.ok) {
+      return null;
+    }
+
+    return res.json();
+  } catch (error) {
+    console.error("Error fetching quiz question:", error);
+    return null;
   }
-
-  return response.json();
 }
 
-// Page component
-interface PageProps {
-  params: {
-    id: string;
-  };
-}
+export default async function Page({ params }: { params: { id: string } }) {
+  const question = await getQuizQuestion(params.id);
 
-export default async function Page({ params }: PageProps) {
-  const { question } = await getQuizQuestion(params.id);
+  if (!question) {
+    return notFound(); // Shows a 404 page if question is not found
+  }
 
   return (
     <Container as="main" className="flex flex-col gap-5 py-5">
+        
       <h1 className="text-lg font-semibold">{question.title}</h1>
       <Answer answers={question.answers} questionId={params.id} />
+      
+      {/* <ul className="space-y-2">
+        {question.answers.map((answer, index) => (
+          <li
+            key={index}
+            className="px-4 py-2 border rounded-md cursor-pointer hover:bg-gray-700 transition"
+          >
+            {answer}
+          </li>
+        ))}
+      </ul> */}
     </Container>
   );
 }

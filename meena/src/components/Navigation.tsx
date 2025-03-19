@@ -10,7 +10,7 @@ export const Navigation = () => {
       <Container className="flex items-center justify-between py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <Image src={logo} alt="Meena" width={60} height={40} />
+          <Image src={logo} alt="Meena" width={60} height={40} style={{ width: "auto", height: "auto" }}  />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-600 font-bold text-3xl">
             Meena
           </span>

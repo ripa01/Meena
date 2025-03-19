@@ -16,7 +16,7 @@ interface PageProps {
 }
 
 interface CharacterResponse {
-  character: Character;  // The response is now wrapped in a 'character' field
+  character: Character | null;  // Character is wrapped inside this 'character' property
 }
 
 export const dynamicParams = false;
@@ -29,19 +29,17 @@ export async function generateStaticParams() {
 
 // Page component
 export default async function Page({ params }: PageProps) {
+  const { slug } = params;  // Destructure slug directly from params
 
-  const { slug } = await params;
   // Fetch character data using the slug from params
-  const data: CharacterResponse | null = await getCharacterBySlug(slug);
+  const data : CharacterResponse = await getCharacterBySlug(slug);
 
   // If no character data is found, show a message
-  if (!data) {
+  if (!data || !data.character) {
     return <div className="text-center text-red-500">Character not found.</div>;
   }
 
-  const character = data.character; // Destructure the response correctly
-  console.log(character);
-
+  const character = data.character;  // Destructure character correctly
 
   // Render character information
   return (
@@ -64,11 +62,11 @@ export default async function Page({ params }: PageProps) {
 
       {character.images?.length > 0 && (
         <ul className="grid gap-2 sm:grid-cols-2">
-          {character.images.map((image: string) => (
-            <li key={image} className="relative flex overflow-hidden bg-gray-900 rounded-xl">
+          {character.images.map((image: string, index: number) => (
+            <li key={index} className="relative flex overflow-hidden bg-gray-900 rounded-xl">
               <Image
                 className="transition-all duration-500 hover:scale-110 hover:rotate-2"
-                src={image}
+                src={`/images/${image}`}  // Assuming the images are stored in the public/images folder
                 alt={character.name}
                 width={760}
                 height={435}
@@ -82,8 +80,8 @@ export default async function Page({ params }: PageProps) {
         <>
           <h2 className="text-xl font-bold">Power and Skills</h2>
           <ul className="flex flex-wrap gap-1">
-            {character.skills.map((item: string) => (
-              <li key={item} className="flex justify-center flex-grow px-2 py-1 text-orange-400 rounded-full bg-orange-950">
+            {character.skills.map((item: string, index: number) => (
+              <li key={index} className="flex justify-center flex-grow px-2 py-1 text-orange-400 rounded-full bg-orange-950">
                 {item}
               </li>
             ))}

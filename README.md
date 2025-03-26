@@ -1,7 +1,7 @@
 # Meena 
 
 ## Overview
-This project is a **full-stack web application** built using **Next.js**. It showcases information about the beloved animated series **Meena**, featuring character details, educational themes, and a quiz section where users can test their knowledge about the show.
+This project is a **full-stack web application** built using **Next.js**. It showcases information about the cartoon series **Meena**, featuring character details and a quiz section where users can test their knowledge about the show.
 
 
 ### Steps to Run Locally

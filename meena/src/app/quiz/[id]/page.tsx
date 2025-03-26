@@ -40,16 +40,7 @@ export default async function Page({ params }: { params: { id: string } }) {
       <h1 className="text-lg font-semibold">{question.title}</h1>
       <Answer answers={question.answers} questionId={params.id} />
       
-      {/* <ul className="space-y-2">
-        {question.answers.map((answer, index) => (
-          <li
-            key={index}
-            className="px-4 py-2 border rounded-md cursor-pointer hover:bg-gray-700 transition"
-          >
-            {answer}
-          </li>
-        ))}
-      </ul> */}
+
     </Container>
   );
 }

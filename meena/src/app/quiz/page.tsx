@@ -42,12 +42,15 @@ export default async function Page() {
 
         {/* Quiz Information */}
         <div className="md:w-[50%] flex flex-col gap-5">
-          <h1 className="text-2xl font-semibold">Family Guy Quiz</h1>
-          <p className="text-sm leading-6 text-gray-300">
-            Take this quiz to find out how much you know about the hit animated
-            sitcom Family Guy. Test your knowledge of the characters, the
-            episodes, and the show&apos;s many pop culture references.
-          </p>
+          <h1 className="text-2xl font-semibold">Meena Quiz</h1>
+          <p className="text-sm leading-6 text-gray-800">
+  Take this quiz to find out how much you know about the beloved animated  
+  series <strong>Meena</strong>. Test your knowledge of Meena, Raju,  
+  Mithu, and their adventures as they tackle important social issues  
+  like education, gender equality, and children's rights in a fun and  
+  engaging way.
+</p>
+
 
           {/* Quiz Start Button */}
           <Link
